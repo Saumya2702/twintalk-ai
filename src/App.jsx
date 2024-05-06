@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import axios from "axios";
-import ReactMarkdown from "react-markdown";
 
 function App() {
   const [question, setQuestion] = useState("");
